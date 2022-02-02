@@ -13,7 +13,7 @@ describe('AppController', () => {
   });
 
   describe('getHello', () => {
-    it('should return "Hello Galaxy!"', () => {
+    it('should return "Hello Hello!"', () => {
       const appController = app.get<AppController>(AppController);
       expect(appController.getHello()).toBe('Hello Galaxy!');
     });
